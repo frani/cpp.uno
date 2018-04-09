@@ -1,0 +1,104 @@
+/* General */
+body {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  color: white;
+}
+section {
+  min-width: 100vw !important;
+  min-height: 100vh !important;
+}
+
+.noMarginBottom {
+  margin-bottom: 0px !important;
+}
+
+/* Icons */
+
+.cppIcon {
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 2em;
+}
+.card .cppIcon, footer .cppIcon{
+  margin: 0 0 0 0 !important;
+  font-size: 2.5rem !important;
+}
+
+/* one */
+
+  /* nav */
+  #one nav {
+    background-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: none !important;
+    padding: 0em 1rem 0rem 1rem;
+  }
+  #one nav li {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: rotate(-5deg);
+  }
+  #logoLargo {
+    height: 2em;
+  }
+
+
+/* Two */
+#nosotros {
+    background-color: black;
+}
+#nosotros h5 {
+  font-size: 2em;
+  background-color: black;
+  transform: rotate(-5deg);
+}
+
+#nosotros .card {
+  transform: rotate(-5deg);
+}
+
+/* youtube */
+
+#youtube .container {
+  padding-top: 5em;
+}
+
+/* Spotify */
+
+#spotify {
+  background-color: black;
+}
+
+#spotifyImg {
+  transform: rotate(-5deg);
+}
+
+/* Footer */
+
+    .page-footer {
+      background-color: rgb(30, 30, 30);
+    }
+
+    footer a {
+      color: #ccc;
+      -webkit-transition: color .3s ease;
+      -o-transition: color .3s ease;
+      transition: color .3s ease;
+      transition-property: color;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+    }
+    footer .footer-copyright {
+      background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    footer a:hover {
+      color: #ffab40;
+    }
+    footer {
+
+      z-index: -5;
+    }
+
+    .page-footer {
+      padding-top: 0px !important;
+    }
