@@ -9,6 +9,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="../css/cssanimation.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
 
@@ -41,16 +42,16 @@
 
 
   </section>
-  <section class="content scrollspy noMarginBottom" id="nosotros">
+  <section class="content scrollspy" id="nosotros">
     <div class="row">
       <div class="col s12 m12 12 center">
         <h5>QUIENES SOMOS</h5>
       </div>
     </div>
-    <div class="row center">
+    <div class="row center noMarginBottom">
       <!-- card 1 -->
       <div class="col s12 m12 l4">
-        <div class="col s12 m12 l10 offset-l1">
+        <div class="col s12 m12 l10 offset-l1" data-scrolly-down="leFadeInRight,duration: 3s, delay: 0.3s">
           <div class="card grey darken-4">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="../img/manuCard.jpg">
@@ -67,7 +68,7 @@
       </div>
       <!-- card 2 -->
       <div class="col s12 m12 l4">
-        <div class="col s12 m12 l10 offset-l1">
+        <div class="col s12 m12 l10 offset-l1" data-scrolly-down="leFadeInRight,duration: 3s, delay: 0.3s">
           <div class="card grey darken-4">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="../img/sashaCard.jpg">
@@ -84,7 +85,7 @@
       </div>
       <!-- card 3 -->
       <div class="col s12 m12 l4">
-        <div class="col s12 m12 l10 offset-l1">
+        <div class="col s12 m12 l10 offset-l1" data-scrolly-down="leFadeInRight,duration: 3s, delay: 0.3s">
           <div class="card grey darken-4">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="../img/joacoCard.jpg">
@@ -140,13 +141,13 @@
     <div class="row noMarginBottom">
       <div class="col s12 m12 l6">
         <div class="col s12 m12 l12">
-          <img src="../img/img_spotify.png" class="responsive-img" id="spotifyImg" alt="">
+          <img src="../img/img_spotify.png" class="responsive-img" id="spotifyImg" alt="" data-scrolly-down="leFadeInLeft,duration: 3s,delay:0.3s">
         </div>
       </div>
       <div class="col s12 m12 l6">
         <div class="col offset-l1 s12 m12 l10">
           <div class="row">
-              <div class="card black">
+              <div class="card black" data-scrolly-down="leFadeInRight,duration:1s,delay:0.3s">
                 <div class="card-content white-text">
                   <span class="card-title">Llevanos en Spotify <i class="fab fa-spotify cppIcon right green-text text-darken-1"></i></span>
                   <p><br>Escuchanos y llevanos a todas partes con Spotify.</p>
@@ -157,7 +158,7 @@
               </div>
           </div>
         </div>
-        <div class="col offset-l1 s12 m12 l10">
+        <div class="col offset-l1 s12 m12 l10" data-scrolly-down="leFadeInRight,duration:1s,delay:0.3s">
           <iframe src="https://open.spotify.com/embed/artist/3WkkKwlDHN3eT54ZoPENFe" width="100%" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
       </div>
@@ -181,8 +182,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/scrolly.min.js"></script>
   <script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
-
 </body>
 
 </html>
