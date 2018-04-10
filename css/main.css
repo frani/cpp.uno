@@ -65,6 +65,7 @@ section {
 
 #spotify {
   background-color: black;
+  background-image: url(../img/spotifyLogo.svg);
 }
 
 #spotifyImg {
